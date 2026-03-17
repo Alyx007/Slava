@@ -104,6 +104,10 @@ struct DraggablePieceView: View {
             SmallStalk()
                 .stroke(color, lineWidth: 2)
                 .frame(width: piece.frameSize.width, height: piece.frameSize.height)
+        case .flowerCompleteSmall:
+            FlowerComplete()
+                .stroke(color, lineWidth: 2)
+                .frame(width: piece.frameSize.width, height: piece.frameSize.height)
         case .peonyFlower:
             PeonyFlower()
                 .stroke(color, lineWidth: 2)

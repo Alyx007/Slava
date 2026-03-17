@@ -33,6 +33,13 @@ struct SlotOutlineView: View {
                     style: StrokeStyle(lineWidth: 1, dash: [5])
                 )
                 .frame(width: piece.frameSize.width, height: piece.frameSize.height)
+        case .flowerCompleteSmall:
+            FlowerComplete()
+                .stroke(
+                    Color.white.opacity(0.25),
+                    style: StrokeStyle(lineWidth: 1, dash: [5])
+                )
+                .frame(width: piece.frameSize.width, height: piece.frameSize.height)
         case .petalStalk:
             PetalStalk()
                 .stroke(

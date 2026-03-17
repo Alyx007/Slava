@@ -48,13 +48,13 @@ class ZywiecGameViewModel: ObservableObject {
         .init(shapeType: .petalStalk,     offset: .init(x: 90, y: -50),    frame: .init(width: 150, height: 150),  requiresFlip: false),
         .init(shapeType: .flowerComplete, offset: .init(x: 200, y: 30),    frame: .init(width: 200, height: 200),  requiresFlip: false),
         .init(shapeType: .petalStalk,     offset: .init(x: 90, y: 140),    frame: .init(width: 150, height: 150),  requiresFlip: false),
-        .init(shapeType: .smallStalk,     offset: .init(x: 89, y: 330),    frame: .init(width: 100, height: 100),  requiresFlip: true),
+        .init(shapeType: .smallStalk,          offset: .init(x: 89, y: 330),    frame: .init(width: 100, height: 100),  requiresFlip: true),
         // Left side
-        .init(shapeType: .flowerComplete, offset: .init(x: -200, y: -160), frame: .init(width: 200, height: 200),  requiresFlip: true),
-        .init(shapeType: .petalStalk,     offset: .init(x: -90, y: -50),   frame: .init(width: 150, height: 150),  requiresFlip: true),
-        .init(shapeType: .flowerComplete, offset: .init(x: -200, y: 30),   frame: .init(width: 200, height: 200),  requiresFlip: true),
-        .init(shapeType: .petalStalk,     offset: .init(x: -90, y: 140),   frame: .init(width: 150, height: 150),  requiresFlip: true),
-        .init(shapeType: .flowerComplete, offset: .init(x: -160, y: 260),  frame: .init(width: 150, height: 150),  requiresFlip: true),
+        .init(shapeType: .flowerComplete,      offset: .init(x: -200, y: -160), frame: .init(width: 200, height: 200),  requiresFlip: true),
+        .init(shapeType: .petalStalk,          offset: .init(x: -90, y: -50),   frame: .init(width: 150, height: 150),  requiresFlip: true),
+        .init(shapeType: .flowerComplete,      offset: .init(x: -200, y: 30),   frame: .init(width: 200, height: 200),  requiresFlip: true),
+        .init(shapeType: .petalStalk,          offset: .init(x: -90, y: 140),   frame: .init(width: 150, height: 150),  requiresFlip: true),
+        .init(shapeType: .flowerCompleteSmall, offset: .init(x: -160, y: 260),  frame: .init(width: 150, height: 150),  requiresFlip: true),
         .init(shapeType: .smallStalk,     offset: .init(x: -89, y: 330),   frame: .init(width: 100, height: 100),  requiresFlip: false),
     ]
 

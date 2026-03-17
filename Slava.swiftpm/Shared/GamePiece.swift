@@ -13,6 +13,7 @@ enum ShapeType {
     case flowerComplete
     case petalStalk
     case smallStalk
+    case flowerCompleteSmall
     case peonyFlower
     // Kaszubski
     case upperStalk
