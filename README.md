@@ -34,7 +34,7 @@ From eastern Krakow and the Polish Highlands. Distinguished by prominent heart m
 - Piece flipping for symmetrical pattern placement
 - Haptic feedback on correct placement
 - Cultural descriptions with text-to-speech narration
-- Responsive layout supporting iPhone, iPad, portrait, and landscape
+- Responsive layout supporting iPad, portrait, and landscape
 
 ## Requirements
 
